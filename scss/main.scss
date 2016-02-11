@@ -1,0 +1,14 @@
+// variables
+@import 'modules/variables';
+// partials
+@import 'partials/nav';
+@import 'partials/masthead';
+
+
+body {
+background-color: $darkBlue;
+max-width: 100em;
+}
+li {
+	list-style: none;
+}

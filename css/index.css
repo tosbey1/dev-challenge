@@ -1,0 +1,33 @@
+nav {
+  background-color: white;
+  height: 1 em;
+  width: 100%;
+  padding: 1em;
+  margin: -1em;
+  font-size: 8px;
+  font-family: Georgia, serif; }
+  nav .upperNav {
+    background-color: red; }
+  nav p {
+    float: left; }
+
+.donate {
+  float: right; }
+  .donate li {
+    float: left; }
+
+.logo {
+  height: 100%;
+  width: 5em;
+  float: left; }
+
+.movie-still {
+  height: 100%;
+  width: 100px; }
+
+body {
+  background-color: #1d2655;
+  max-width: 100em; }
+
+li {
+  list-style: none; }
