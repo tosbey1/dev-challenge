@@ -1,9 +1,86 @@
-nav{background-color:#fff;height:1 em;width:100%;padding:1em;margin:-1em;font-size:8px;font-family:Georgia,serif}
-nav .upperNav{background-color:red}
-nav p{float:left}
-.donate{float:right}
-.donate li{float:left}
-.logo{height:100%;width:5em;float:left}
-.movie-still{height:100%;width:100px}
-body{background-color:#1d2655;max-width:100em}
+[class*=col-]{float:left}
+[class*=col-]:after{content:"";display:table;clear:both}
+.col-90{width:90%}
+.col-80{width:80%}
+.col-60{width:60%}
+.col-55{width:55%}
+.col-45{width:45%}
+.col-20{width:20%}
+.col-1-2{width:50%}
+.col-1-3{width:33.33333%}
+.col-1-4{width:40%}
+.col-1-8{width:12.5%}
+.col-1-9{width:11.11111%}
+.col-logo{width:10%}
+.donate:after,.social:after,nav ul:after,nav:after{content:"";display:table;clear:both}
+nav{background-color:#fff;width:auto;padding:0;font-size:1.8vw;font-family:Raleway,sans-serif;text-transform:uppercase;font-weight:700}
+nav .section1{margin:1vw}
+nav .section2 .screenings{padding:0;float:left;margin:0}
+nav .section2 span{text-transform:uppercase}
+nav .section2 p{font-style:italic;font-weight:400;font-family:Georgia,serif;text-transform:lowercase}
+nav .section2 ul{width:100%}
+nav .section2 ul li{float:left}
+nav .section3 ul{width:100%}
+nav .section3 .donate{padding:0;margin:.6vw 0 0 7.3vw}
+nav .section3 .donate p{font-size:1.31vw;float:left}
+nav .section3 .social{margin-top:.8vw;padding:0;margin-left:8vw}
+nav .section3 .social p{text-align:right;font-size:1vw;padding-left:-2vw;float:left;width:50%}
+nav .logo{height:auto;width:5em}
+nav .fa-facebook-square,nav .fa-twitter-square{font-size:120%;padding:2.5%}
+nav hr{width:215%}
+.mastsections:after{contains:"";display:table;clear:both}
+.masthead{background-color:#111630;background-image:linear-gradient(rgba(17,22,48,.9),rgba(17,22,48,.9)),url(images/movie_still.jpg);background-size:100% 100%;background-position:right;font-family:Raleway,sans-serif;color:#fff;margin:0 auto;padding:1vw}
+.masthead a{color:#fff;font-size:1.3vw}
+.masthead a i{padding-right:.7vw}
+.masthead .mastheader{padding-left:4vw;margin:0}
+.masthead .mastheader h1{font-family:Raleway,sans-serif;font-size:5vw;color:#fff;font-weight:500;margin:1.5vw 0 0}
+.masthead .mastheader li{font-size:2.5vw;margin:0 0 4vw}
+.masthead .mastsection1,.masthead .mastsection2,.masthead .mastsection3{padding-left:1vw}
+.mastsections{height:25vw;margin:1vw}
+.desc,.mastsection1{height:40vw}
+.desc div ul{padding-left:1.5vw}
+.mastsection2{background-color:rgba(39,46,83,.8);height:50%;width:100%;display:inline-block;font-size:2vw}
+.mastsection2 p{font-size:2.5vw;font-weight:500}
+.mastsection2 li{font-size:1.8vw}
+.mastsection2 li span{font-weight:600}
+.mastsection3{height:50%;display:inline-block;width:100%;background-color:rgba(29,38,85,.6);font-size:1.5vw}
+.buttons:after,ul:after{content:"";display:table;clear:both}
+.buttons{margin:0 0 0 5vw;width:100%;display:inline-block}
+.buttons ul{margin:0;padding:2vw 2vw 2vw 9vw}
+.buttons ul li{float:left;border:solid #fff .3vw;padding:1vw;margin:.8vw .8vw .3vw 3vw;border-radius:.7vw;font-size:1.5vw;font-weight:600;text-transform:uppercase}
+.buttons i{padding-right:1vw;font-size:125%}
+.featuredimages:after{content:"";display:table;clear:both}
+.featuredimages{width:100%;height:24vw}
+.featuredimages .img{height:100%;background-repeat:no-repeat}
+.featuredimages .medium1{background-image:url(images/medium_still.jpg);background-size:110% 220%;background-position:center}
+.featuredimages .medium2{background-image:linear-gradient(rgba(138,197,204,.4),rgba(138,197,204,.4)),url(images/medium_still_2.jpg);background-size:110% 140%;background-position:top left}
+.featuredimages ul{background:#000;color:#fff;width:40%;height:100%;font-size:1.19vw;padding:.5vw;font-family:Georgia,serif;border:solid grey 1px;margin:3vw}
+.featuredimages .featureborder{border:solid #fff .4vw}
+.featuredimages .post{font-family:Georgia,serif;font-weight:500;font-size:1.2vw}
+.featuredimages p{font-weight:600;font-size:1.3vw;font-family:Raleway,sans-serif}
+.featuredimages li{font-size:1.6vw;background:#000;margin:.8vw;text-align:center}
+.blog{color:#fff;position:absolute;text-align:right;margin:15vw 0 0 -2vw;margin-bottom:5vw;text-shadow:2px -1px #404040}
+.upcoming:after,.upcoming:after .img:after,.upcomingpics:after{content:"";display:table;clear:both}
+.upcomingpics{width:125%;overflow:visible;display:inline-block;right:5vw;top:3vw;z-index:1;position:relative}
+.upcoming{height:28vw}
+.upcoming [class*=col-]{height:100%}
+.upcoming .one{background-image:linear-gradient(rgba(17,22,48,.7),rgba(17,22,48,.7)),url(images/upcoming_1.png);background-position:center right;background-size:140% 100%}
+.upcoming .two{background-image:linear-gradient(rgba(17,22,48,.7),rgba(17,22,48,.7)),url(images/upcoming_2.png);background-size:100% 100%}
+.upcoming .three{background-image:linear-gradient(rgba(17,22,48,.7),rgba(17,22,48,.7)),url(images/upcoming_3.png)}
+.date,.month{position:absolute;opacity:.7;font-weight:700}
+.month{font-size:1.7vw;color:#000;font-family:Raleway,sans-serif;position:absolute;background:#fff;margin-left:22%;margin-top:1vw;padding:.5vw}
+.date{background-color:#000;font-family:Raleway,sans-serif;color:#fff;font-size:3.1vw;margin-left:22%;margin-top:4vw;text-align:center;padding:0 .7vw}
+.title{position:absolute;font-family:Raleway,sans-serif;font-size:1.4vw;text-shadow:2px 1px #000;color:#fff;margin-top:17%;margin-left:-4%;text-align:right;font-weight:700}
+.title .dir{font-weight:400}
+.upcomingscreen{font-size:2vw;font-family:Raleway,sans-serif;font-weight:700;color:#fff}
+.upcomingscreen p{margin:3vw 0 0;text-align:center}
+.footer:after{content:"";display:table;clear:both}
+.footer{overflow:hidden;background-color:#d3d3d3;font-family:Georgia,serif;font-size:1.25vw}
+.footer a{color:#404040}
+.footer div{text-align:center;padding:.8vw}
+.footer .gray{background-color:#c2c2c2;padding:2vw}
+.footer img{width:10%;margin:2.5vw 0 0 48%}
+*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+body,html{background-color:#111630;margin:0;padding:0;width:100%;height:100%;max-width:100vw;max-height:auto}
 li{list-style:none}
+.fa-circle{font-size:.5vw;padding:1.5em;height:100%;vertical-align:middle}
